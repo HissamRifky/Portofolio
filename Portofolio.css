@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+/* styles.css */
+.text-justify {
+    text-align: justify;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #343a40;
+    background-image: linear-gradient(to right bottom, #343a40, #1b1e21);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* Social Icons */
+.social-link {
+    font-size: 2rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #ffc107;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+}
+
+/* Projects and Certifications Section */
+#projects, #certifications {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 4rem 0;
+}
+
+.social-link {
+    font-size: 2.5rem;
+    margin: 0 10px;
+}
